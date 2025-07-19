@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support - Get Help | Makitox</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/tailwind.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .glass {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(15px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .bg-gradient-dark {
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #334155 100%);
+        }
+    </style>
+</head>
+<body class="bg-gradient-dark text-white min-h-screen">
+    <!-- Header -->
+    <header class="glass fixed w-full top-0 z-50">
+        <nav class="container mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center">
+                    <a href="index.html" class="text-2xl font-bold text-orange-400">Makitox</a>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="index.html" class="hover:text-orange-400 transition-colors">Home</a>
+                    <a href="support.html" class="text-orange-400">Support</a>
+                    <a href="privacy.html" class="hover:text-orange-400 transition-colors">Privacy</a>
+                </div>
+                <div class="md:hidden">
+                    <button class="text-white hover:text-orange-400">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="pt-24 pb-12">
+        <div class="container mx-auto px-6">
+            <div class="text-center">
+                <h1 class="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-white to-orange-400 bg-clip-text text-transparent">
+                    Support Center
+                </h1>
+                <p class="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto">
+                    We're here to help you get the most out of your Makitox experience. Find answers or reach out to our team.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-16">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-bold mb-4">Frequently Asked Questions</h2>
+                <p class="text-xl text-gray-300">Quick answers to common questions</p>
+            </div>
+
+            <div class="max-w-4xl mx-auto space-y-6">
+                <!-- FAQ Item 1 -->
+                <div class="glass-card rounded-2xl p-6">
+                    <button class="w-full text-left flex items-center justify-between" onclick="toggleFAQ('faq1')">
+                        <h3 class="text-xl font-semibold">How does Future Alarm track my sleep patterns?</h3>
+                        <svg id="faq1-icon" class="w-6 h-6 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                        </svg>
+                    </button>
+                    <div id="faq1-content" class="hidden mt-4 text-gray-300">
+                        <p>Future Alarm uses your device's built-in sensors and microphone to monitor movement and sound patterns during sleep. The app analyzes this data to identify different sleep phases and determine optimal wake-up times. All processing is done locally on your device for privacy.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="glass-card rounded-2xl p-6">
+                    <button class="w-full text-left flex items-center justify-between" onclick="toggleFAQ('faq2')">
+                        <h3 class="text-xl font-semibold">Is my sleep data secure and private?</h3>
+                        <svg id="faq2-icon" class="w-6 h-6 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                        </svg>
+                    </button>
+                    <div id="faq2-content" class="hidden mt-4 text-gray-300">
+                        <p>Absolutely. All your sleep data is processed and stored locally on your device. We do not collect, store, or share any personal sleep information. Your privacy is our top priority, and you have full control over your data.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 3 -->
+                <div class="glass-card rounded-2xl p-6">
+                    <button class="w-full text-left flex items-center justify-between" onclick="toggleFAQ('faq3')">
+                        <h3 class="text-xl font-semibold">Can I use Future Alarm without a subscription?</h3>
+                        <svg id="faq3-icon" class="w-6 h-6 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                        </svg>
+                    </button>
+                    <div id="faq3-content" class="hidden mt-4 text-gray-300">
+                        <p>Yes! Future Alarm offers a comprehensive free tier with basic sleep tracking and smart alarm features. Premium features like advanced analytics, custom sounds, and detailed insights are available through an optional subscription.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 4 -->
+                <div class="glass-card rounded-2xl p-6">
+                    <button class="w-full text-left flex items-center justify-between" onclick="toggleFAQ('faq4')">
+                        <h3 class="text-xl font-semibold">What devices are compatible with Future Alarm?</h3>
+                        <svg id="faq4-icon" class="w-6 h-6 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                        </svg>
+                    </button>
+                    <div id="faq4-content" class="hidden mt-4 text-gray-300">
+                        <p>Future Alarm is available for iOS 14.0+ and Android 8.0+. The app is optimized for smartphones and supports integration with Apple Watch and selected Android smartwatches for enhanced sleep tracking accuracy.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 5 -->
+                <div class="glass-card rounded-2xl p-6">
+                    <button class="w-full text-left flex items-center justify-between" onclick="toggleFAQ('faq5')">
+                        <h3 class="text-xl font-semibold">How long does it take for the app to learn my sleep patterns?</h3>
+                        <svg id="faq5-icon" class="w-6 h-6 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                        </svg>
+                    </button>
+                    <div id="faq5-content" class="hidden mt-4 text-gray-300">
+                        <p>Future Alarm begins providing basic optimization immediately, but the app becomes more accurate after 3-7 days of consistent use. For the most personalized experience, we recommend using the app for at least two weeks to establish reliable sleep pattern recognition.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 6 -->
+                <div class="glass-card rounded-2xl p-6">
+                    <button class="w-full text-left flex items-center justify-between" onclick="toggleFAQ('faq6')">
+                        <h3 class="text-xl font-semibold">Can I export my sleep data?</h3>
+                        <svg id="faq6-icon" class="w-6 h-6 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                        </svg>
+                    </button>
+                    <div id="faq6-content" class="hidden mt-4 text-gray-300">
+                        <p>Yes, you can export your sleep data in CSV format for personal analysis or to share with healthcare professionals. This feature is available in the app settings under "Data Export" and includes sleep quality scores, duration, and pattern insights.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="py-20">
+        <div class="container mx-auto px-6">
+            <div class="max-w-4xl mx-auto">
+                <div class="text-center mb-12">
+                    <h2 class="text-4xl font-bold mb-4">Get in Touch</h2>
+                    <p class="text-xl text-gray-300">Can't find what you're looking for? We're here to help.</p>
+                </div>
+
+                <div class="grid md:grid-cols-2 gap-12">
+                    <!-- Contact Information -->
+                    <div class="glass-card rounded-2xl p-8">
+                        <h3 class="text-2xl font-semibold mb-6">Contact Information</h3>
+                        <div class="space-y-6">
+                            <div class="flex items-start">
+                                <div class="w-12 h-12 bg-orange-500 rounded-xl flex items-center justify-center mr-4 flex-shrink-0">
+                                    <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold mb-1">Email Support</h4>
+                                    <p class="text-gray-300">support@makitox.com</p>
+                                    <p class="text-sm text-gray-400">We respond within 24 hours</p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start">
+                                <div class="w-12 h-12 bg-orange-500 rounded-xl flex items-center justify-center mr-4 flex-shrink-0">
+                                    <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"></path>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold mb-1">Live Chat</h4>
+                                    <p class="text-gray-300">Available in-app</p>
+                                    <p class="text-sm text-gray-400">Monday - Friday, 9AM - 6PM PST</p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start">
+                                <div class="w-12 h-12 bg-orange-500 rounded-xl flex items-center justify-center mr-4 flex-shrink-0">
+                                    <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold mb-1">Documentation</h4>
+                                    <p class="text-gray-300">help.makitox.com</p>
+                                    <p class="text-sm text-gray-400">Comprehensive guides and tutorials</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form -->
+                    <div class="glass-card rounded-2xl p-8">
+                        <h3 class="text-2xl font-semibold mb-6">Send us a Message</h3>
+                        <form id="contact-form" class="space-y-6">
+                            <div>
+                                <label for="name" class="block text-sm font-medium mb-2">Full Name</label>
+                                <input type="text" id="name" name="name" required 
+                                       class="w-full px-4 py-3 bg-gray-800/50 border border-gray-600 rounded-xl focus:ring-2 focus:ring-orange-500 focus:border-transparent text-white placeholder-gray-400"
+                                       placeholder="Your full name">
+                                <span id="name-error" class="text-red-400 text-sm hidden"></span>
+                            </div>
+
+                            <div>
+                                <label for="email" class="block text-sm font-medium mb-2">Email Address</label>
+                                <input type="email" id="email" name="email" required 
+                                       class="w-full px-4 py-3 bg-gray-800/50 border border-gray-600 rounded-xl focus:ring-2 focus:ring-orange-500 focus:border-transparent text-white placeholder-gray-400"
+                                       placeholder="your@email.com">
+                                <span id="email-error" class="text-red-400 text-sm hidden"></span>
+                            </div>
+
+                            <div>
+                                <label for="subject" class="block text-sm font-medium mb-2">Subject</label>
+                                <select id="subject" name="subject" required 
+                                        class="w-full px-4 py-3 bg-gray-800/50 border border-gray-600 rounded-xl focus:ring-2 focus:ring-orange-500 focus:border-transparent text-white">
+                                    <option value="">Select a topic</option>
+                                    <option value="technical">Technical Support</option>
+                                    <option value="billing">Billing Question</option>
+                                    <option value="feature">Feature Request</option>
+                                    <option value="bug">Bug Report</option>
+                                    <option value="general">General Inquiry</option>
+                                </select>
+                                <span id="subject-error" class="text-red-400 text-sm hidden"></span>
+                            </div>
+
+                            <div>
+                                <label for="message" class="block text-sm font-medium mb-2">Message</label>
+                                <textarea id="message" name="message" rows="5" required 
+                                          class="w-full px-4 py-3 bg-gray-800/50 border border-gray-600 rounded-xl focus:ring-2 focus:ring-orange-500 focus:border-transparent text-white placeholder-gray-400"
+                                          placeholder="Tell us how we can help you..."></textarea>
+                                <span id="message-error" class="text-red-400 text-sm hidden"></span>
+                            </div>
+
+                            <button type="submit" 
+                                    class="w-full bg-gradient-to-r from-orange-500 to-orange-600 text-white py-3 px-6 rounded-xl font-semibold hover:from-orange-600 hover:to-orange-700 transition-all duration-300">
+                                Send Message
+                            </button>
+                            
+                            <div id="form-success" class="hidden text-green-400 text-center">
+                                <svg class="w-6 h-6 mx-auto mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                Thank you! Your message has been sent successfully.
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Additional Resources -->
+    <section class="py-16">
+        <div class="container mx-auto px-6">
+            <div class="glass-card rounded-2xl p-12 text-center max-w-4xl mx-auto">
+                <h2 class="text-3xl font-bold mb-6">Additional Resources</h2>
+                <p class="text-xl text-gray-300 mb-8">
+                    Explore more ways to get help and stay updated with Makitox.
+                </p>
+                <div class="grid md:grid-cols-3 gap-6">
+                    <a href="#" class="glass border-orange-400/50 p-6 rounded-xl hover:border-orange-400 transition-all duration-300">
+                        <svg class="w-12 h-12 text-orange-400 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
+                        </svg>
+                        <h3 class="font-semibold mb-2">User Guide</h3>
+                        <p class="text-sm text-gray-400">Complete documentation and tutorials</p>
+                    </a>
+                    <a href="#" class="glass border-orange-400/50 p-6 rounded-xl hover:border-orange-400 transition-all duration-300">
+                        <svg class="w-12 h-12 text-orange-400 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z"></path>
+                        </svg>
+                        <h3 class="font-semibold mb-2">Community</h3>
+                        <p class="text-sm text-gray-400">Join our user community forum</p>
+                    </a>
+                    <a href="#" class="glass border-orange-400/50 p-6 rounded-xl hover:border-orange-400 transition-all duration-300">
+                        <svg class="w-12 h-12 text-orange-400 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                        <h3 class="font-semibold mb-2">Status Page</h3>
+                        <p class="text-sm text-gray-400">Check service status and updates</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="glass border-t border-gray-700 py-12">
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div class="md:col-span-2">
+                    <h3 class="text-2xl font-bold text-orange-400 mb-4">Makitox</h3>
+                    <p class="text-gray-300 mb-6">
+                        Creating innovative mobile applications that enhance your daily life through thoughtful design and cutting-edge technology.
+                    </p>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Products</h4>
+                    <ul class="space-y-2 text-gray-300">
+                        <li><a href="app-future-alarm.html" class="hover:text-orange-400 transition-colors">Future Alarm</a></li>
+                        <li><span class="text-gray-500">More apps coming soon</span></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Company</h4>
+                    <ul class="space-y-2 text-gray-300">
+                        <li><a href="support.html" class="text-orange-400">Support</a></li>
+                        <li><a href="privacy.html" class="hover:text-orange-400 transition-colors">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2024 Makitox. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/form-handler.js"></script>
+    <script>
+        function toggleFAQ(faqId) {
+            const content = document.getElementById(faqId + '-content');
+            const icon = document.getElementById(faqId + '-icon');
+            
+            if (content.classList.contains('hidden')) {
+                content.classList.remove('hidden');
+                icon.style.transform = 'rotate(180deg)';
+            } else {
+                content.classList.add('hidden');
+                icon.style.transform = 'rotate(0deg)';
+            }
+        }
+    </script>
+</body>
+</html>
