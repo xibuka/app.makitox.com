@@ -163,10 +163,10 @@
                     <p class="text-xl text-gray-300">Can't find what you're looking for? We're here to help.</p>
                 </div>
 
-                <div class="grid md:grid-cols-2 gap-12">
+                <div class="flex justify-center">
                     <!-- Contact Information -->
-                    <div class="glass-card rounded-2xl p-8">
-                        <h3 class="text-2xl font-semibold mb-6">Contact Information</h3>
+                    <div class="glass-card rounded-2xl p-8 max-w-lg">
+                        <h3 class="text-2xl font-semibold mb-6 text-center">Contact Information</h3>
                         <div class="space-y-6">
                             <div class="flex items-start">
                                 <div class="w-12 h-12 bg-orange-500 rounded-xl flex items-center justify-center mr-4 flex-shrink-0">
@@ -180,129 +180,13 @@
                                     <p class="text-sm text-gray-400">We respond within 24 hours</p>
                                 </div>
                             </div>
-
-                            <div class="flex items-start">
-                                <div class="w-12 h-12 bg-orange-500 rounded-xl flex items-center justify-center mr-4 flex-shrink-0">
-                                    <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"></path>
-                                    </svg>
-                                </div>
-                                <div>
-                                    <h4 class="font-semibold mb-1">Live Chat</h4>
-                                    <p class="text-gray-300">Available in-app</p>
-                                    <p class="text-sm text-gray-400">Monday - Friday, 9AM - 6PM PST</p>
-                                </div>
-                            </div>
-
-                            <div class="flex items-start">
-                                <div class="w-12 h-12 bg-orange-500 rounded-xl flex items-center justify-center mr-4 flex-shrink-0">
-                                    <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
-                                    </svg>
-                                </div>
-                                <div>
-                                    <h4 class="font-semibold mb-1">Documentation</h4>
-                                    <p class="text-gray-300">help.makitox.com</p>
-                                    <p class="text-sm text-gray-400">Comprehensive guides and tutorials</p>
-                                </div>
-                            </div>
                         </div>
                     </div>
-
-                    <!-- Contact Form -->
-                    <div class="glass-card rounded-2xl p-8">
-                        <h3 class="text-2xl font-semibold mb-6">Send us a Message</h3>
-                        <form id="contact-form" class="space-y-6">
-                            <div>
-                                <label for="name" class="block text-sm font-medium mb-2">Full Name</label>
-                                <input type="text" id="name" name="name" required 
-                                       class="w-full px-4 py-3 bg-gray-800/50 border border-gray-600 rounded-xl focus:ring-2 focus:ring-orange-500 focus:border-transparent text-white placeholder-gray-400"
-                                       placeholder="Your full name">
-                                <span id="name-error" class="text-red-400 text-sm hidden"></span>
-                            </div>
-
-                            <div>
-                                <label for="email" class="block text-sm font-medium mb-2">Email Address</label>
-                                <input type="email" id="email" name="email" required 
-                                       class="w-full px-4 py-3 bg-gray-800/50 border border-gray-600 rounded-xl focus:ring-2 focus:ring-orange-500 focus:border-transparent text-white placeholder-gray-400"
-                                       placeholder="your@email.com">
-                                <span id="email-error" class="text-red-400 text-sm hidden"></span>
-                            </div>
-
-                            <div>
-                                <label for="subject" class="block text-sm font-medium mb-2">Subject</label>
-                                <select id="subject" name="subject" required 
-                                        class="w-full px-4 py-3 bg-gray-800/50 border border-gray-600 rounded-xl focus:ring-2 focus:ring-orange-500 focus:border-transparent text-white">
-                                    <option value="">Select a topic</option>
-                                    <option value="technical">Technical Support</option>
-                                    <option value="billing">Billing Question</option>
-                                    <option value="feature">Feature Request</option>
-                                    <option value="bug">Bug Report</option>
-                                    <option value="general">General Inquiry</option>
-                                </select>
-                                <span id="subject-error" class="text-red-400 text-sm hidden"></span>
-                            </div>
-
-                            <div>
-                                <label for="message" class="block text-sm font-medium mb-2">Message</label>
-                                <textarea id="message" name="message" rows="5" required 
-                                          class="w-full px-4 py-3 bg-gray-800/50 border border-gray-600 rounded-xl focus:ring-2 focus:ring-orange-500 focus:border-transparent text-white placeholder-gray-400"
-                                          placeholder="Tell us how we can help you..."></textarea>
-                                <span id="message-error" class="text-red-400 text-sm hidden"></span>
-                            </div>
-
-                            <button type="submit" 
-                                    class="w-full bg-gradient-to-r from-orange-500 to-orange-600 text-white py-3 px-6 rounded-xl font-semibold hover:from-orange-600 hover:to-orange-700 transition-all duration-300">
-                                Send Message
-                            </button>
-                            
-                            <div id="form-success" class="hidden text-green-400 text-center">
-                                <svg class="w-6 h-6 mx-auto mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                                </svg>
-                                Thank you! Your message has been sent successfully.
-                            </div>
-                        </form>
-                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Additional Resources -->
-    <section class="py-16">
-        <div class="container mx-auto px-6">
-            <div class="glass-card rounded-2xl p-12 text-center max-w-4xl mx-auto">
-                <h2 class="text-3xl font-bold mb-6">Additional Resources</h2>
-                <p class="text-xl text-gray-300 mb-8">
-                    Explore more ways to get help and stay updated with Makitox.
-                </p>
-                <div class="grid md:grid-cols-3 gap-6">
-                    <a href="#" class="glass border-orange-400/50 p-6 rounded-xl hover:border-orange-400 transition-all duration-300">
-                        <svg class="w-12 h-12 text-orange-400 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
-                        </svg>
-                        <h3 class="font-semibold mb-2">User Guide</h3>
-                        <p class="text-sm text-gray-400">Complete documentation and tutorials</p>
-                    </a>
-                    <a href="#" class="glass border-orange-400/50 p-6 rounded-xl hover:border-orange-400 transition-all duration-300">
-                        <svg class="w-12 h-12 text-orange-400 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z"></path>
-                        </svg>
-                        <h3 class="font-semibold mb-2">Community</h3>
-                        <p class="text-sm text-gray-400">Join our user community forum</p>
-                    </a>
-                    <a href="#" class="glass border-orange-400/50 p-6 rounded-xl hover:border-orange-400 transition-all duration-300">
-                        <svg class="w-12 h-12 text-orange-400 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                        </svg>
-                        <h3 class="font-semibold mb-2">Status Page</h3>
-                        <p class="text-sm text-gray-400">Check service status and updates</p>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <!-- Footer -->
     <footer class="glass border-t border-gray-700 py-12">
@@ -335,7 +219,6 @@
         </div>
     </footer>
 
-    <script src="js/form-handler.js"></script>
     <script>
         function toggleFAQ(faqId) {
             const content = document.getElementById(faqId + '-content');
