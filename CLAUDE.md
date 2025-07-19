@@ -11,7 +11,7 @@ Makitox is a premium static website showcasing a suite of mobile applications. T
 ```
 makitox/
 ├── index.html                # Homepage with app showcase
-├── app-future-alarm.html     # Future Alarm product page
+├── app-miraialarm.html     # MiraiAlarm product page
 ├── support.html              # Support page with contact form
 ├── privacy.html              # Privacy policy page
 ├── /assets
@@ -52,8 +52,8 @@ This is a static website that requires no build process:
 
 Replace these placeholder images with actual content:
 - `hero-phones.jpg` (1200x800px) - Phone mockups for hero section
-- `future-alarm-icon.jpg` (256x256px) - App icon
-- `future-alarm-preview.jpg` (600x1200px) - Phone screenshot
+- `miraialarm-icon.png` (256x256px) - App icon
+- `miraialarm-preview.jpg` (600x1200px) - Phone screenshot
 - `app-interface-mockup.jpg` (800x600px) - Interface preview
 - `testimonial-1/2/3.jpg` (128x128px) - User profile photos
 
