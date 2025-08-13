@@ -1,0 +1,1748 @@
+{
+  "metadata": {
+    "source": "Tanaka Precious Metals",
+    "url": "https://gold.tanaka.co.jp/commodity/souba/d-gold.php",
+    "currency": "JPY",
+    "unit": "per gram",
+    "last_updated": "2025-08-13T19:30:52.199235",
+    "total_entries": 347,
+    "data_type": "yearly"
+  },
+  "prices": [
+    {
+      "date": "2025-08-13",
+      "price": 17567.0,
+      "original_price_str": "17567"
+    },
+    {
+      "date": "2025-08-12",
+      "price": 17663.0,
+      "original_price_str": "17663"
+    },
+    {
+      "date": "2025-08-11",
+      "price": 17663.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2025-08-10",
+      "price": 17663.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2025-08-09",
+      "price": 17663.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2025-08-08",
+      "price": 17711.0,
+      "original_price_str": "17711"
+    },
+    {
+      "date": "2025-08-07",
+      "price": 17633.0,
+      "original_price_str": "17633"
+    },
+    {
+      "date": "2025-08-06",
+      "price": 17713.0,
+      "original_price_str": "17713"
+    },
+    {
+      "date": "2025-08-05",
+      "price": 17604.0,
+      "original_price_str": "17604"
+    },
+    {
+      "date": "2025-08-04",
+      "price": 17570.0,
+      "original_price_str": "17570"
+    },
+    {
+      "date": "2025-08-03",
+      "price": 17570.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2025-08-02",
+      "price": 17570.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2025-08-01",
+      "price": 17595.0,
+      "original_price_str": "17595"
+    },
+    {
+      "date": "2025-07-31",
+      "price": 17421.0,
+      "original_price_str": "17421"
+    },
+    {
+      "date": "2025-07-30",
+      "price": 17548.0,
+      "original_price_str": "17548"
+    },
+    {
+      "date": "2025-07-29",
+      "price": 17465.0,
+      "original_price_str": "17465"
+    },
+    {
+      "date": "2025-07-28",
+      "price": 17486.0,
+      "original_price_str": "17486"
+    },
+    {
+      "date": "2025-07-27",
+      "price": 17486.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2025-07-26",
+      "price": 17486.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2025-07-25",
+      "price": 17629.0,
+      "original_price_str": "17629"
+    },
+    {
+      "date": "2025-07-24",
+      "price": 17628.0,
+      "original_price_str": "17628"
+    },
+    {
+      "date": "2025-07-23",
+      "price": 17875.0,
+      "original_price_str": "17875"
+    },
+    {
+      "date": "2025-07-22",
+      "price": 17796.0,
+      "original_price_str": "17796"
+    },
+    {
+      "date": "2025-07-21",
+      "price": 17796.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2025-07-20",
+      "price": 17796.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2025-07-19",
+      "price": 17796.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2025-07-18",
+      "price": 17626.0,
+      "original_price_str": "17626"
+    },
+    {
+      "date": "2025-07-17",
+      "price": 17603.0,
+      "original_price_str": "17603"
+    },
+    {
+      "date": "2025-07-16",
+      "price": 17620.0,
+      "original_price_str": "17620"
+    },
+    {
+      "date": "2025-07-15",
+      "price": 17562.0,
+      "original_price_str": "17562"
+    },
+    {
+      "date": "2025-07-14",
+      "price": 17609.0,
+      "original_price_str": "17609"
+    },
+    {
+      "date": "2025-07-13",
+      "price": 17609.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2025-07-12",
+      "price": 17609.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2025-07-11",
+      "price": 17285.0,
+      "original_price_str": "17285"
+    },
+    {
+      "date": "2025-07-10",
+      "price": 17200.0,
+      "original_price_str": "17200"
+    },
+    {
+      "date": "2025-07-09",
+      "price": 17243.0,
+      "original_price_str": "17243"
+    },
+    {
+      "date": "2025-07-08",
+      "price": 17268.0,
+      "original_price_str": "17268"
+    },
+    {
+      "date": "2025-07-07",
+      "price": 17055.0,
+      "original_price_str": "17055"
+    },
+    {
+      "date": "2025-07-06",
+      "price": 17055.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2025-07-05",
+      "price": 17055.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2025-07-04",
+      "price": 17079.0,
+      "original_price_str": "17079"
+    },
+    {
+      "date": "2025-07-03",
+      "price": 17058.0,
+      "original_price_str": "17058"
+    },
+    {
+      "date": "2025-07-02",
+      "price": 17043.0,
+      "original_price_str": "17043"
+    },
+    {
+      "date": "2025-07-01",
+      "price": 16905.0,
+      "original_price_str": "16905"
+    },
+    {
+      "date": "2025-06-30",
+      "price": 16788.0,
+      "original_price_str": "16,788"
+    },
+    {
+      "date": "2025-06-29",
+      "price": 16788.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2025-06-28",
+      "price": 16788.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2025-06-27",
+      "price": 17029.0,
+      "original_price_str": "17,029"
+    },
+    {
+      "date": "2025-06-26",
+      "price": 17144.0,
+      "original_price_str": "17,144"
+    },
+    {
+      "date": "2025-06-25",
+      "price": 17125.0,
+      "original_price_str": "17,125"
+    },
+    {
+      "date": "2025-06-24",
+      "price": 17321.0,
+      "original_price_str": "17,321"
+    },
+    {
+      "date": "2025-06-23",
+      "price": 17486.0,
+      "original_price_str": "17,486"
+    },
+    {
+      "date": "2025-06-22",
+      "price": 17486.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2025-06-21",
+      "price": 17486.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2025-06-20",
+      "price": 17345.0,
+      "original_price_str": "17,345"
+    },
+    {
+      "date": "2025-06-19",
+      "price": 17364.0,
+      "original_price_str": "17,364"
+    },
+    {
+      "date": "2025-06-18",
+      "price": 17455.0,
+      "original_price_str": "17,455"
+    },
+    {
+      "date": "2025-06-17",
+      "price": 17476.0,
+      "original_price_str": "17,476"
+    },
+    {
+      "date": "2025-06-16",
+      "price": 17678.0,
+      "original_price_str": "17,678"
+    },
+    {
+      "date": "2025-06-15",
+      "price": 17678.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2025-06-14",
+      "price": 17678.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2025-06-13",
+      "price": 17297.0,
+      "original_price_str": "17,297"
+    },
+    {
+      "date": "2025-06-12",
+      "price": 17217.0,
+      "original_price_str": "17,217"
+    },
+    {
+      "date": "2025-06-11",
+      "price": 17122.0,
+      "original_price_str": "17,122"
+    },
+    {
+      "date": "2025-06-10",
+      "price": 17041.0,
+      "original_price_str": "17,041"
+    },
+    {
+      "date": "2025-06-09",
+      "price": 16989.0,
+      "original_price_str": "16,989"
+    },
+    {
+      "date": "2025-06-08",
+      "price": 16989.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2025-06-07",
+      "price": 16989.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2025-06-06",
+      "price": 17128.0,
+      "original_price_str": "17,128"
+    },
+    {
+      "date": "2025-06-05",
+      "price": 17108.0,
+      "original_price_str": "17,108"
+    },
+    {
+      "date": "2025-06-04",
+      "price": 17128.0,
+      "original_price_str": "17,128"
+    },
+    {
+      "date": "2025-06-03",
+      "price": 17108.0,
+      "original_price_str": "17,108"
+    },
+    {
+      "date": "2025-06-02",
+      "price": 16886.0,
+      "original_price_str": "16,886"
+    },
+    {
+      "date": "2025-06-01",
+      "price": 16886.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2025-05-31",
+      "price": 16886.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2025-05-30",
+      "price": 16899.0,
+      "original_price_str": "16,899"
+    },
+    {
+      "date": "2025-05-29",
+      "price": 16870.0,
+      "original_price_str": "16,870"
+    },
+    {
+      "date": "2025-05-28",
+      "price": 16911.0,
+      "original_price_str": "16,911"
+    },
+    {
+      "date": "2025-05-27",
+      "price": 16902.0,
+      "original_price_str": "16,902"
+    },
+    {
+      "date": "2025-05-26",
+      "price": 16902.0,
+      "original_price_str": "16,902"
+    },
+    {
+      "date": "2025-05-25",
+      "price": 16902.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2025-05-24",
+      "price": 16902.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2025-05-23",
+      "price": 16868.0,
+      "original_price_str": "16,868"
+    },
+    {
+      "date": "2025-05-22",
+      "price": 16909.0,
+      "original_price_str": "16,909"
+    },
+    {
+      "date": "2025-05-21",
+      "price": 16858.0,
+      "original_price_str": "16,858"
+    },
+    {
+      "date": "2025-05-20",
+      "price": 16607.0,
+      "original_price_str": "16,607"
+    },
+    {
+      "date": "2025-05-19",
+      "price": 16731.0,
+      "original_price_str": "16,731"
+    },
+    {
+      "date": "2025-05-18",
+      "price": 16731.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2025-05-17",
+      "price": 16731.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2025-05-16",
+      "price": 16707.0,
+      "original_price_str": "16,707"
+    },
+    {
+      "date": "2025-05-15",
+      "price": 16595.0,
+      "original_price_str": "16,595"
+    },
+    {
+      "date": "2025-05-14",
+      "price": 16999.0,
+      "original_price_str": "16,999"
+    },
+    {
+      "date": "2025-05-13",
+      "price": 17035.0,
+      "original_price_str": "17,035"
+    },
+    {
+      "date": "2025-05-12",
+      "price": 16996.0,
+      "original_price_str": "16,996"
+    },
+    {
+      "date": "2025-05-11",
+      "price": 16996.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2025-05-10",
+      "price": 16996.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2025-05-09",
+      "price": 17162.0,
+      "original_price_str": "17,162"
+    },
+    {
+      "date": "2025-05-08",
+      "price": 17259.0,
+      "original_price_str": "17,259"
+    },
+    {
+      "date": "2025-05-07",
+      "price": 17189.0,
+      "original_price_str": "17,189"
+    },
+    {
+      "date": "2025-05-06",
+      "price": 17189.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2025-05-05",
+      "price": 17189.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2025-05-04",
+      "price": 17189.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2025-05-03",
+      "price": 17189.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2025-05-02",
+      "price": 16747.0,
+      "original_price_str": "16,747"
+    },
+    {
+      "date": "2025-05-01",
+      "price": 16533.0,
+      "original_price_str": "16,533"
+    },
+    {
+      "date": "2025-04-30",
+      "price": 16760.0,
+      "original_price_str": "16,760"
+    },
+    {
+      "date": "2025-04-29",
+      "price": 16760.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2025-04-28",
+      "price": 16860.0,
+      "original_price_str": "16,860"
+    },
+    {
+      "date": "2025-04-27",
+      "price": 16860.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2025-04-26",
+      "price": 16860.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2025-04-25",
+      "price": 17044.0,
+      "original_price_str": "17,044"
+    },
+    {
+      "date": "2025-04-24",
+      "price": 16882.0,
+      "original_price_str": "16,882"
+    },
+    {
+      "date": "2025-04-23",
+      "price": 16883.0,
+      "original_price_str": "16,883"
+    },
+    {
+      "date": "2025-04-22",
+      "price": 17160.0,
+      "original_price_str": "17,160"
+    },
+    {
+      "date": "2025-04-21",
+      "price": 16838.0,
+      "original_price_str": "16,838"
+    },
+    {
+      "date": "2025-04-20",
+      "price": 16838.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2025-04-19",
+      "price": 16838.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2025-04-18",
+      "price": 16788.0,
+      "original_price_str": "16,788"
+    },
+    {
+      "date": "2025-04-17",
+      "price": 16885.0,
+      "original_price_str": "16,885"
+    },
+    {
+      "date": "2025-04-16",
+      "price": 16522.0,
+      "original_price_str": "16,522"
+    },
+    {
+      "date": "2025-04-15",
+      "price": 16349.0,
+      "original_price_str": "16,349"
+    },
+    {
+      "date": "2025-04-14",
+      "price": 16399.0,
+      "original_price_str": "16,399"
+    },
+    {
+      "date": "2025-04-13",
+      "price": 16399.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2025-04-12",
+      "price": 16399.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2025-04-11",
+      "price": 16261.0,
+      "original_price_str": "16,261"
+    },
+    {
+      "date": "2025-04-10",
+      "price": 16141.0,
+      "original_price_str": "16,141"
+    },
+    {
+      "date": "2025-04-09",
+      "price": 15405.0,
+      "original_price_str": "15,405"
+    },
+    {
+      "date": "2025-04-08",
+      "price": 15668.0,
+      "original_price_str": "15,668"
+    },
+    {
+      "date": "2025-04-07",
+      "price": 15431.0,
+      "original_price_str": "15,431"
+    },
+    {
+      "date": "2025-04-06",
+      "price": 15431.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2025-04-05",
+      "price": 15431.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2025-04-04",
+      "price": 16153.0,
+      "original_price_str": "16,153"
+    },
+    {
+      "date": "2025-04-03",
+      "price": 16555.0,
+      "original_price_str": "16,555"
+    },
+    {
+      "date": "2025-04-02",
+      "price": 16578.0,
+      "original_price_str": "16,578"
+    },
+    {
+      "date": "2025-04-01",
+      "price": 16605.0,
+      "original_price_str": "16,605"
+    },
+    {
+      "date": "2025-03-31",
+      "price": 16332.0,
+      "original_price_str": "16,332"
+    },
+    {
+      "date": "2025-03-30",
+      "price": 16332.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2025-03-29",
+      "price": 16332.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2025-03-28",
+      "price": 16398.0,
+      "original_price_str": "16,398"
+    },
+    {
+      "date": "2025-03-27",
+      "price": 16144.0,
+      "original_price_str": "16,144"
+    },
+    {
+      "date": "2025-03-26",
+      "price": 16069.0,
+      "original_price_str": "16,069"
+    },
+    {
+      "date": "2025-03-25",
+      "price": 16118.0,
+      "original_price_str": "16,118"
+    },
+    {
+      "date": "2025-03-24",
+      "price": 16038.0,
+      "original_price_str": "16,038"
+    },
+    {
+      "date": "2025-03-23",
+      "price": 16038.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2025-03-22",
+      "price": 16038.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2025-03-21",
+      "price": 16078.0,
+      "original_price_str": "16,078"
+    },
+    {
+      "date": "2025-03-20",
+      "price": 16078.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2025-03-19",
+      "price": 16058.0,
+      "original_price_str": "16,058"
+    },
+    {
+      "date": "2025-03-18",
+      "price": 15884.0,
+      "original_price_str": "15,884"
+    },
+    {
+      "date": "2025-03-17",
+      "price": 15759.0,
+      "original_price_str": "15,759"
+    },
+    {
+      "date": "2025-03-16",
+      "price": 15759.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2025-03-15",
+      "price": 15759.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2025-03-14",
+      "price": 15684.0,
+      "original_price_str": "15,684"
+    },
+    {
+      "date": "2025-03-13",
+      "price": 15467.0,
+      "original_price_str": "15,467"
+    },
+    {
+      "date": "2025-03-12",
+      "price": 15325.0,
+      "original_price_str": "15,325"
+    },
+    {
+      "date": "2025-03-11",
+      "price": 15051.0,
+      "original_price_str": "15,051"
+    },
+    {
+      "date": "2025-03-10",
+      "price": 15258.0,
+      "original_price_str": "15,258"
+    },
+    {
+      "date": "2025-03-09",
+      "price": 15258.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2025-03-08",
+      "price": 15258.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2025-03-07",
+      "price": 15247.0,
+      "original_price_str": "15,247"
+    },
+    {
+      "date": "2025-03-06",
+      "price": 15464.0,
+      "original_price_str": "15,464"
+    },
+    {
+      "date": "2025-03-05",
+      "price": 15490.0,
+      "original_price_str": "15,490"
+    },
+    {
+      "date": "2025-03-04",
+      "price": 15337.0,
+      "original_price_str": "15,337"
+    },
+    {
+      "date": "2025-03-03",
+      "price": 15338.0,
+      "original_price_str": "15,338"
+    },
+    {
+      "date": "2025-03-02",
+      "price": 15338.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2025-03-01",
+      "price": 15338.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2025-02-28",
+      "price": 15302.0,
+      "original_price_str": "15,302"
+    },
+    {
+      "date": "2025-02-27",
+      "price": 15417.0,
+      "original_price_str": "15,417"
+    },
+    {
+      "date": "2025-02-26",
+      "price": 15449.0,
+      "original_price_str": "15,449"
+    },
+    {
+      "date": "2025-02-25",
+      "price": 15705.0,
+      "original_price_str": "15,705"
+    },
+    {
+      "date": "2025-02-24",
+      "price": 15705.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2025-02-23",
+      "price": 15705.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2025-02-22",
+      "price": 15705.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2025-02-21",
+      "price": 15635.0,
+      "original_price_str": "15,635"
+    },
+    {
+      "date": "2025-02-20",
+      "price": 15770.0,
+      "original_price_str": "15,770"
+    },
+    {
+      "date": "2025-02-19",
+      "price": 15808.0,
+      "original_price_str": "15,808"
+    },
+    {
+      "date": "2025-02-18",
+      "price": 15604.0,
+      "original_price_str": "15,604"
+    },
+    {
+      "date": "2025-02-17",
+      "price": 15594.0,
+      "original_price_str": "15,594"
+    },
+    {
+      "date": "2025-02-16",
+      "price": 15594.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2025-02-15",
+      "price": 15594.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2025-02-14",
+      "price": 15866.0,
+      "original_price_str": "15,866"
+    },
+    {
+      "date": "2025-02-13",
+      "price": 15909.0,
+      "original_price_str": "15,909"
+    },
+    {
+      "date": "2025-02-12",
+      "price": 15719.0,
+      "original_price_str": "15,719"
+    },
+    {
+      "date": "2025-02-11",
+      "price": 15719.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2025-02-10",
+      "price": 15442.0,
+      "original_price_str": "15,442"
+    },
+    {
+      "date": "2025-02-09",
+      "price": 15442.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2025-02-08",
+      "price": 15442.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2025-02-07",
+      "price": 15334.0,
+      "original_price_str": "15,334"
+    },
+    {
+      "date": "2025-02-06",
+      "price": 15544.0,
+      "original_price_str": "15,544"
+    },
+    {
+      "date": "2025-02-05",
+      "price": 15547.0,
+      "original_price_str": "15,547"
+    },
+    {
+      "date": "2025-02-04",
+      "price": 15499.0,
+      "original_price_str": "15,499"
+    },
+    {
+      "date": "2025-02-03",
+      "price": 15403.0,
+      "original_price_str": "15,403"
+    },
+    {
+      "date": "2025-02-02",
+      "price": 15403.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2025-02-01",
+      "price": 15403.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2025-01-31",
+      "price": 15303.0,
+      "original_price_str": "15,303"
+    },
+    {
+      "date": "2025-01-30",
+      "price": 15176.0,
+      "original_price_str": "15,176"
+    },
+    {
+      "date": "2025-01-29",
+      "price": 15251.0,
+      "original_price_str": "15,251"
+    },
+    {
+      "date": "2025-01-28",
+      "price": 15086.0,
+      "original_price_str": "15,086"
+    },
+    {
+      "date": "2025-01-27",
+      "price": 15270.0,
+      "original_price_str": "15,270"
+    },
+    {
+      "date": "2025-01-26",
+      "price": 15270.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2025-01-25",
+      "price": 15270.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2025-01-24",
+      "price": 15259.0,
+      "original_price_str": "15,259"
+    },
+    {
+      "date": "2025-01-23",
+      "price": 15283.0,
+      "original_price_str": "15,283"
+    },
+    {
+      "date": "2025-01-22",
+      "price": 15133.0,
+      "original_price_str": "15,133"
+    },
+    {
+      "date": "2025-01-21",
+      "price": 14900.0,
+      "original_price_str": "14,900"
+    },
+    {
+      "date": "2025-01-20",
+      "price": 14924.0,
+      "original_price_str": "14,924"
+    },
+    {
+      "date": "2025-01-19",
+      "price": 14924.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2025-01-18",
+      "price": 14924.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2025-01-17",
+      "price": 14961.0,
+      "original_price_str": "14,961"
+    },
+    {
+      "date": "2025-01-16",
+      "price": 14983.0,
+      "original_price_str": "14,983"
+    },
+    {
+      "date": "2025-01-15",
+      "price": 15000.0,
+      "original_price_str": "15,000"
+    },
+    {
+      "date": "2025-01-14",
+      "price": 14911.0,
+      "original_price_str": "14,911"
+    },
+    {
+      "date": "2025-01-13",
+      "price": 14911.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2025-01-12",
+      "price": 14911.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2025-01-11",
+      "price": 14911.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2025-01-10",
+      "price": 14993.0,
+      "original_price_str": "14,993"
+    },
+    {
+      "date": "2025-01-09",
+      "price": 14942.0,
+      "original_price_str": "14,942"
+    },
+    {
+      "date": "2025-01-08",
+      "price": 14873.0,
+      "original_price_str": "14,873"
+    },
+    {
+      "date": "2025-01-07",
+      "price": 14776.0,
+      "original_price_str": "14,776"
+    },
+    {
+      "date": "2025-01-06",
+      "price": 14787.0,
+      "original_price_str": "14,787"
+    },
+    {
+      "date": "2025-01-05",
+      "price": 14787.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2025-01-04",
+      "price": 14787.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2025-01-03",
+      "price": 14787.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2025-01-02",
+      "price": 14787.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2025-01-01",
+      "price": 14787.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2024-12-31",
+      "price": 14787.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2024-12-30",
+      "price": 14787.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2024-12-29",
+      "price": 14787.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2024-12-28",
+      "price": 14787.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2024-12-27",
+      "price": 14746.0,
+      "original_price_str": "14,746"
+    },
+    {
+      "date": "2024-12-26",
+      "price": 14609.0,
+      "original_price_str": "14,609"
+    },
+    {
+      "date": "2024-12-25",
+      "price": 14616.0,
+      "original_price_str": "14,616"
+    },
+    {
+      "date": "2024-12-24",
+      "price": 14599.0,
+      "original_price_str": "14,599"
+    },
+    {
+      "date": "2024-12-23",
+      "price": 14564.0,
+      "original_price_str": "14,564"
+    },
+    {
+      "date": "2024-12-22",
+      "price": 14564.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2024-12-21",
+      "price": 14564.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2024-12-20",
+      "price": 14527.0,
+      "original_price_str": "14,527"
+    },
+    {
+      "date": "2024-12-19",
+      "price": 14238.0,
+      "original_price_str": "14,238"
+    },
+    {
+      "date": "2024-12-18",
+      "price": 14437.0,
+      "original_price_str": "14,437"
+    },
+    {
+      "date": "2024-12-17",
+      "price": 14509.0,
+      "original_price_str": "14,509"
+    },
+    {
+      "date": "2024-12-16",
+      "price": 14439.0,
+      "original_price_str": "14,439"
+    },
+    {
+      "date": "2024-12-15",
+      "price": 14439.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2024-12-14",
+      "price": 14439.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2024-12-13",
+      "price": 14545.0,
+      "original_price_str": "14,545"
+    },
+    {
+      "date": "2024-12-12",
+      "price": 14686.0,
+      "original_price_str": "14,686"
+    },
+    {
+      "date": "2024-12-11",
+      "price": 14531.0,
+      "original_price_str": "14,531"
+    },
+    {
+      "date": "2024-12-10",
+      "price": 14295.0,
+      "original_price_str": "14,295"
+    },
+    {
+      "date": "2024-12-09",
+      "price": 14032.0,
+      "original_price_str": "14,032"
+    },
+    {
+      "date": "2024-12-08",
+      "price": 14032.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2024-12-07",
+      "price": 14032.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2024-12-06",
+      "price": 14043.0,
+      "original_price_str": "14,043"
+    },
+    {
+      "date": "2024-12-05",
+      "price": 14153.0,
+      "original_price_str": "14,153"
+    },
+    {
+      "date": "2024-12-04",
+      "price": 14060.0,
+      "original_price_str": "14,060"
+    },
+    {
+      "date": "2024-12-03",
+      "price": 14065.0,
+      "original_price_str": "14,065"
+    },
+    {
+      "date": "2024-12-02",
+      "price": 14107.0,
+      "original_price_str": "14,107"
+    },
+    {
+      "date": "2024-12-01",
+      "price": 14107.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2024-11-30",
+      "price": 14107.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2024-11-29",
+      "price": 14144.0,
+      "original_price_str": "14,144"
+    },
+    {
+      "date": "2024-11-28",
+      "price": 14190.0,
+      "original_price_str": "14,190"
+    },
+    {
+      "date": "2024-11-27",
+      "price": 14278.0,
+      "original_price_str": "14,278"
+    },
+    {
+      "date": "2024-11-26",
+      "price": 14361.0,
+      "original_price_str": "14,361"
+    },
+    {
+      "date": "2024-11-25",
+      "price": 14858.0,
+      "original_price_str": "14,858"
+    },
+    {
+      "date": "2024-11-24",
+      "price": 14858.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2024-11-23",
+      "price": 14858.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2024-11-22",
+      "price": 14632.0,
+      "original_price_str": "14,632"
+    },
+    {
+      "date": "2024-11-21",
+      "price": 14613.0,
+      "original_price_str": "14,613"
+    },
+    {
+      "date": "2024-11-20",
+      "price": 14501.0,
+      "original_price_str": "14,501"
+    },
+    {
+      "date": "2024-11-19",
+      "price": 14328.0,
+      "original_price_str": "14,328"
+    },
+    {
+      "date": "2024-11-18",
+      "price": 14081.0,
+      "original_price_str": "14,081"
+    },
+    {
+      "date": "2024-11-17",
+      "price": 14081.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2024-11-16",
+      "price": 14081.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2024-11-15",
+      "price": 14270.0,
+      "original_price_str": "14,270"
+    },
+    {
+      "date": "2024-11-14",
+      "price": 14220.0,
+      "original_price_str": "14,220"
+    },
+    {
+      "date": "2024-11-13",
+      "price": 14292.0,
+      "original_price_str": "14,292"
+    },
+    {
+      "date": "2024-11-12",
+      "price": 14314.0,
+      "original_price_str": "14,314"
+    },
+    {
+      "date": "2024-11-11",
+      "price": 14580.0,
+      "original_price_str": "14,580"
+    },
+    {
+      "date": "2024-11-10",
+      "price": 14580.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2024-11-09",
+      "price": 14580.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2024-11-08",
+      "price": 14735.0,
+      "original_price_str": "14,735"
+    },
+    {
+      "date": "2024-11-07",
+      "price": 14622.0,
+      "original_price_str": "14,622"
+    },
+    {
+      "date": "2024-11-06",
+      "price": 14790.0,
+      "original_price_str": "14,790"
+    },
+    {
+      "date": "2024-11-05",
+      "price": 14787.0,
+      "original_price_str": "14,787"
+    },
+    {
+      "date": "2024-11-04",
+      "price": 14787.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2024-11-03",
+      "price": 14787.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2024-11-02",
+      "price": 14787.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2024-11-01",
+      "price": 14833.0,
+      "original_price_str": "14,833"
+    },
+    {
+      "date": "2024-10-31",
+      "price": 15162.0,
+      "original_price_str": "15,162"
+    },
+    {
+      "date": "2024-10-30",
+      "price": 15104.0,
+      "original_price_str": "15,104"
+    },
+    {
+      "date": "2024-10-29",
+      "price": 14931.0,
+      "original_price_str": "14,931"
+    },
+    {
+      "date": "2024-10-28",
+      "price": 14873.0,
+      "original_price_str": "14,873"
+    },
+    {
+      "date": "2024-10-27",
+      "price": 14873.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2024-10-26",
+      "price": 14873.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2024-10-25",
+      "price": 14733.0,
+      "original_price_str": "14,733"
+    },
+    {
+      "date": "2024-10-24",
+      "price": 14731.0,
+      "original_price_str": "14,731"
+    },
+    {
+      "date": "2024-10-23",
+      "price": 14748.0,
+      "original_price_str": "14,748"
+    },
+    {
+      "date": "2024-10-22",
+      "price": 14567.0,
+      "original_price_str": "14,567"
+    },
+    {
+      "date": "2024-10-21",
+      "price": 14430.0,
+      "original_price_str": "14,430"
+    },
+    {
+      "date": "2024-10-20",
+      "price": 14430.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2024-10-19",
+      "price": 14430.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2024-10-18",
+      "price": 14347.0,
+      "original_price_str": "14,347"
+    },
+    {
+      "date": "2024-10-17",
+      "price": 14198.0,
+      "original_price_str": "14,198"
+    },
+    {
+      "date": "2024-10-16",
+      "price": 14088.0,
+      "original_price_str": "14,088"
+    },
+    {
+      "date": "2024-10-15",
+      "price": 14069.0,
+      "original_price_str": "14,069"
+    },
+    {
+      "date": "2024-10-14",
+      "price": 14069.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2024-10-13",
+      "price": 14069.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2024-10-12",
+      "price": 14069.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2024-10-11",
+      "price": 13899.0,
+      "original_price_str": "13,899"
+    },
+    {
+      "date": "2024-10-10",
+      "price": 13800.0,
+      "original_price_str": "13,800"
+    },
+    {
+      "date": "2024-10-09",
+      "price": 13785.0,
+      "original_price_str": "13,785"
+    },
+    {
+      "date": "2024-10-08",
+      "price": 13885.0,
+      "original_price_str": "13,885"
+    },
+    {
+      "date": "2024-10-07",
+      "price": 13978.0,
+      "original_price_str": "13,978"
+    },
+    {
+      "date": "2024-10-06",
+      "price": 13978.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2024-10-05",
+      "price": 13978.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2024-10-04",
+      "price": 13841.0,
+      "original_price_str": "13,841"
+    },
+    {
+      "date": "2024-10-03",
+      "price": 13844.0,
+      "original_price_str": "13,844"
+    },
+    {
+      "date": "2024-10-02",
+      "price": 13569.0,
+      "original_price_str": "13,569"
+    },
+    {
+      "date": "2024-10-01",
+      "price": 13470.0,
+      "original_price_str": "13,470"
+    },
+    {
+      "date": "2024-09-30",
+      "price": 13499.0,
+      "original_price_str": "13,499"
+    },
+    {
+      "date": "2024-09-29",
+      "price": 13499.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2024-09-28",
+      "price": 13499.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2024-09-27",
+      "price": 13751.0,
+      "original_price_str": "13,751"
+    },
+    {
+      "date": "2024-09-26",
+      "price": 13634.0,
+      "original_price_str": "13,634"
+    },
+    {
+      "date": "2024-09-25",
+      "price": 13517.0,
+      "original_price_str": "13,517"
+    },
+    {
+      "date": "2024-09-24",
+      "price": 13381.0,
+      "original_price_str": "13,381"
+    },
+    {
+      "date": "2024-09-23",
+      "price": 13381.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2024-09-22",
+      "price": 13381.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2024-09-21",
+      "price": 13381.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2024-09-20",
+      "price": 13105.0,
+      "original_price_str": "13,105"
+    },
+    {
+      "date": "2024-09-19",
+      "price": 13003.0,
+      "original_price_str": "13,003"
+    },
+    {
+      "date": "2024-09-18",
+      "price": 12958.0,
+      "original_price_str": "12,958"
+    },
+    {
+      "date": "2024-09-17",
+      "price": 12912.0,
+      "original_price_str": "12,912"
+    },
+    {
+      "date": "2024-09-16",
+      "price": 12912.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2024-09-15",
+      "price": 12912.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2024-09-14",
+      "price": 12912.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2024-09-13",
+      "price": 12842.0,
+      "original_price_str": "12,842"
+    },
+    {
+      "date": "2024-09-12",
+      "price": 12752.0,
+      "original_price_str": "12,752"
+    },
+    {
+      "date": "2024-09-11",
+      "price": 12710.0,
+      "original_price_str": "12,710"
+    },
+    {
+      "date": "2024-09-10",
+      "price": 12755.0,
+      "original_price_str": "12,755"
+    },
+    {
+      "date": "2024-09-09",
+      "price": 12657.0,
+      "original_price_str": "12,657"
+    },
+    {
+      "date": "2024-09-08",
+      "price": 12657.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2024-09-07",
+      "price": 12657.0,
+      "original_price_str": "-"
+    },
+    {
+      "date": "2024-09-06",
+      "price": 12811.0,
+      "original_price_str": "12,811"
+    },
+    {
+      "date": "2024-09-05",
+      "price": 12732.0,
+      "original_price_str": "12,732"
+    },
+    {
+      "date": "2024-09-04",
+      "price": 12875.0,
+      "original_price_str": "12,875"
+    },
+    {
+      "date": "2024-09-03",
+      "price": 13027.0,
+      "original_price_str": "13,027"
+    },
+    {
+      "date": "2024-09-02",
+      "price": 13013.0,
+      "original_price_str": "13,013"
+    },
+    {
+      "date": "2024-09-01",
+      "price": 13013.0,
+      "original_price_str": "-"
+    }
+  ]
+}

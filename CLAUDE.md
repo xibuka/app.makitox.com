@@ -11,7 +11,7 @@ Makitox is a premium static website showcasing a suite of mobile applications. T
 ```
 makitox/
 ├── index.html                # Homepage with app showcase
-├── app-miraialarm.html     # MiraiAlarm product page
+├── app-miraialarm.html     # Mirai Alert product page
 ├── support.html              # Support page with contact form
 ├── privacy.html              # Privacy policy page
 ├── /assets

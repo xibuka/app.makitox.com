@@ -1,0 +1,162 @@
+{
+  "metadata": {
+    "source": "Tanaka Precious Metals",
+    "url": "https://gold.tanaka.co.jp/commodity/souba/d-gold.php",
+    "currency": "JPY",
+    "unit": "per gram",
+    "last_updated": "2025-08-13T19:30:51.038292",
+    "total_entries": 30
+  },
+  "prices": [
+    {
+      "date": "2025-08-13",
+      "price": 17567.0,
+      "original_price_str": "17567"
+    },
+    {
+      "date": "2025-08-12",
+      "price": 17663.0,
+      "original_price_str": "17663"
+    },
+    {
+      "date": "2025-08-08",
+      "price": 17711.0,
+      "original_price_str": "17711"
+    },
+    {
+      "date": "2025-08-07",
+      "price": 17633.0,
+      "original_price_str": "17633"
+    },
+    {
+      "date": "2025-08-06",
+      "price": 17713.0,
+      "original_price_str": "17713"
+    },
+    {
+      "date": "2025-08-05",
+      "price": 17604.0,
+      "original_price_str": "17604"
+    },
+    {
+      "date": "2025-08-04",
+      "price": 17570.0,
+      "original_price_str": "17570"
+    },
+    {
+      "date": "2025-08-01",
+      "price": 17595.0,
+      "original_price_str": "17595"
+    },
+    {
+      "date": "2025-07-31",
+      "price": 17421.0,
+      "original_price_str": "17421"
+    },
+    {
+      "date": "2025-07-30",
+      "price": 17548.0,
+      "original_price_str": "17548"
+    },
+    {
+      "date": "2025-07-29",
+      "price": 17465.0,
+      "original_price_str": "17465"
+    },
+    {
+      "date": "2025-07-28",
+      "price": 17486.0,
+      "original_price_str": "17486"
+    },
+    {
+      "date": "2025-07-25",
+      "price": 17629.0,
+      "original_price_str": "17629"
+    },
+    {
+      "date": "2025-07-24",
+      "price": 17628.0,
+      "original_price_str": "17628"
+    },
+    {
+      "date": "2025-07-23",
+      "price": 17875.0,
+      "original_price_str": "17875"
+    },
+    {
+      "date": "2025-07-22",
+      "price": 17796.0,
+      "original_price_str": "17796"
+    },
+    {
+      "date": "2025-07-18",
+      "price": 17626.0,
+      "original_price_str": "17626"
+    },
+    {
+      "date": "2025-07-17",
+      "price": 17603.0,
+      "original_price_str": "17603"
+    },
+    {
+      "date": "2025-07-16",
+      "price": 17620.0,
+      "original_price_str": "17620"
+    },
+    {
+      "date": "2025-07-15",
+      "price": 17562.0,
+      "original_price_str": "17562"
+    },
+    {
+      "date": "2025-07-14",
+      "price": 17609.0,
+      "original_price_str": "17609"
+    },
+    {
+      "date": "2025-07-11",
+      "price": 17285.0,
+      "original_price_str": "17285"
+    },
+    {
+      "date": "2025-07-10",
+      "price": 17200.0,
+      "original_price_str": "17200"
+    },
+    {
+      "date": "2025-07-09",
+      "price": 17243.0,
+      "original_price_str": "17243"
+    },
+    {
+      "date": "2025-07-08",
+      "price": 17268.0,
+      "original_price_str": "17268"
+    },
+    {
+      "date": "2025-07-07",
+      "price": 17055.0,
+      "original_price_str": "17055"
+    },
+    {
+      "date": "2025-07-04",
+      "price": 17079.0,
+      "original_price_str": "17079"
+    },
+    {
+      "date": "2025-07-03",
+      "price": 17058.0,
+      "original_price_str": "17058"
+    },
+    {
+      "date": "2025-07-02",
+      "price": 17043.0,
+      "original_price_str": "17043"
+    },
+    {
+      "date": "2025-07-01",
+      "price": 16905.0,
+      "original_price_str": "16905"
+    }
+  ]
+}
