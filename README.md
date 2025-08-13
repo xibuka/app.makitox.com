@@ -1,303 +1,121 @@
-# 🌟 Makitox Platform
+# Makitox - Premium Mobile App Showcase
 
-Premium mobile app showcase website with integrated live gold price API.
+Premium static website showcasing innovative mobile applications with glassmorphism design.
 
-## 🚀 Quick Start
+## 🌟 Features
 
-### Option 1: One-Command Launch (Recommended)
+- **Premium Design**: Glassmorphism aesthetic with dark theme
+- **Responsive Layout**: Mobile-first design using TailwindCSS  
+- **App Showcase**: Featured mobile applications with detailed pages
+- **Contact Forms**: JavaScript validation and form handling
+- **SEO Optimized**: Meta tags and Open Graph properties
 
-```bash
-# Simple launcher script
-./run.sh
+## 🚀 Featured App
 
-# Alternative Python launcher
-python start.py
-```
+### Mirai Alert
+Revolutionary alarm clock that learns your sleep patterns and wakes you at the optimal time for better mornings.
 
-### Option 2: Manual Setup
-
-```bash
-# Install dependencies
-pip install -r api/requirements.txt
-
-# Run from project root
-python server.py
-```
-
-
-## 📍 Access Your Platform
-
-- **🌐 Website**: http://localhost:8000
-- **🔌 API**: http://localhost:8000/api
-- **📊 Gold Prices**: http://localhost:8000/api/gold-prices/yearly
-- **💊 Health**: http://localhost:8000/api/status
-
-## ✨ Features
-
-### Website
-- **Glassmorphism Design**: Modern, elegant UI
-- **Live Gold Prices**: Real-time updates on homepage  
-- **Responsive Layout**: Mobile-first design
-- **App Showcase**: MiraiAlarm and future apps
-
-### API
-- **347+ Price Points**: Full year of gold price data
-- **Lightning Fast**: ~10ms cached responses
-- **Smart Caching**: Daily updates, instant serving
-- **JSON Format**: Clean, structured data
+**📱 Available Now**: [Download on App Store](https://apps.apple.com/us/app/mirai-alert/id6748834235)
 
 ## 📁 Project Structure
 
 ```
 makitox/
-├── 🌟 index.html              # Homepage with live gold prices
-├── app-miraialarm.html        # MiraiAlarm product page
-├── support.html               # Support page
-├── privacy.html               # Privacy policy
-├── assets/                    # Images, icons
-├── css/                       # Stylesheets  
-├── js/                        # JavaScript
-├── 🚀 server.py               # Main server launcher
-├── 🚀 start.py                # Python launcher with auto-setup
-├── 🚀 run.sh                  # Shell launcher script
-└── api/                       # API server code
-    ├── integrated_server.py   # Core server
-    ├── scraper.py             # Gold price scraping
-    ├── requirements.txt       # Dependencies
-    └── data/                  # Cached data
+├── index.html              # Homepage with app showcase
+├── app-miraialarm.html     # Mirai Alert product page
+├── support.html            # Support & contact page
+├── privacy.html            # Privacy policy
+├── /assets
+│   ├── /images            # App screenshots and assets
+│   └── /icons             # Icon files
+├── /css
+│   └── tailwind.css       # Custom TailwindCSS utilities
+├── /js
+│   └── form-handler.js    # Contact form validation
+└── /components            # Future HTML components
 ```
 
-## 🎯 API Endpoints
+## 🎨 Design System
 
-| Endpoint | Description | Cache | Response Time |
-|----------|-------------|-------|---------------|
-| `GET /api/gold-prices/latest` | Current price | ✅ | ~5ms |
-| `GET /api/gold-prices` | Daily data (30 entries) | ✅ | ~10ms |
-| `GET /api/gold-prices/yearly` | Full year (347+ entries) | ✅ | ~10ms |
-| `POST /api/update` | Force refresh | - | ~2-3s |
-| `GET /api/status` | Health check | - | ~1ms |
+- **Colors**: Dark theme (#0f172a, #1e293b) with orange accents (#f97316)
+- **Typography**: Inter font family with clear hierarchy
+- **Effects**: Glassmorphism cards with backdrop blur
+- **Spacing**: Generous padding for premium feel
+- **Animations**: Subtle hover effects and transitions
 
-## 📊 Gold Price Data
+## 🖥️ Local Development
 
-### Data Coverage
-- **Date Range**: September 2024 → Present
-- **Entries**: 347+ individual price points
-- **Source**: Tanaka Precious Metals
-- **Currency**: Japanese Yen (¥) per gram
-- **Updates**: Daily automatic refresh
-
-### Example Response
-```json
-{
-  "metadata": {
-    "total_entries": 347,
-    "last_updated": "2025-08-13T18:46:30",
-    "currency": "JPY",
-    "unit": "per gram"
-  },
-  "prices": [
-    {
-      "date": "2025-08-13",
-      "price": 17567.0,
-      "original_price_str": "17567"
-    }
-  ]
-}
-```
-
-## 🔧 Configuration
-
-### Environment Variables
+### Simple HTTP Server
 ```bash
-export MAKITOX_PORT=8000        # Server port
-export MAKITOX_HOST=0.0.0.0     # Bind address
-export MAKITOX_DATA_DIR=api/data # Data directory
+# Python 3
+python -m http.server 8000
+
+# Python 2
+python -m SimpleHTTPServer 8000
+
+# Node.js (if you have http-server installed)
+npx http-server
 ```
 
-### Custom Gold Widget Placement
-Add this to any HTML page:
-```html
-<div id="gold-price-display"></div>
-<!-- Widget automatically injected -->
-```
+### VS Code Live Server
+1. Install "Live Server" extension
+2. Right-click `index.html` → "Open with Live Server"
 
-## 📈 Performance
+### Access
+- **Website**: http://localhost:8000
+- **App Page**: http://localhost:8000/app-miraialarm.html
+- **Support**: http://localhost:8000/support.html
 
-### Benchmarks
-- **Website Loading**: < 100ms
-- **API Response (Cached)**: < 10ms  
-- **API Response (Fresh)**: < 3s
-- **Memory Usage**: ~80MB
-- **Concurrent Users**: 100+ supported
+## 📱 Mobile Applications
 
-### Caching Strategy
-- **Daily Data**: 24-hour cache
-- **Yearly Data**: 24-hour cache  
-- **Force Update**: Manual refresh via `/api/update`
-- **Smart Invalidation**: Automatic daily refresh
+### Current Apps
+- **Mirai Alert** - Smart alarm clock with sleep pattern learning
 
-## 🖥️ Production Deployment
+### Coming Soon  
+- Additional productivity and lifestyle apps
+- Enhanced features and integrations
 
-### VPS/Server Deployment
-```bash
-# With screen/tmux for background running
-screen -S makitox
-python server.py
+## 🌐 Deployment
 
-# Detach with Ctrl+A, D
-# Reattach with: screen -r makitox
-```
+### Static Hosting Platforms
+- **Netlify**: Drag & drop deployment
+- **Vercel**: Git-based deployment  
+- **GitHub Pages**: Direct from repository
+- **Surge.sh**: Simple command-line deployment
 
-### Process Management
-```bash
-# Check if server is running
-ps aux | grep "python server.py"
+### Traditional Web Hosting
+- Upload all files to web server root directory
+- Ensure proper MIME types for CSS/JS files
+- Configure redirects if needed for clean URLs
 
-# Kill server if needed
-pkill -f "python server.py"
+## 🔧 Customization
 
-# Restart server
-python server.py
-```
+### Adding New Apps
+1. Create new HTML page: `app-newapp.html`
+2. Add app card to `index.html` in Featured Apps section
+3. Update navigation and footer links
+4. Add new images to `assets/images/`
 
-## 🧪 Testing
+### Styling Changes
+- Main styles: `css/tailwind.css`
+- Inline styles: Within `<style>` tags in HTML files
+- Color scheme: Update CSS custom properties
 
-### Integration Tests
-```bash
-python api/test_integration.py
-```
+### Form Configuration
+- Form handling: `js/form-handler.js`
+- Add validation rules for new form fields
+- Update success/error messages
 
-### Manual Testing
-```bash
-# Test website
-curl http://localhost:8000
+## 📞 Support
 
-# Test API
-curl http://localhost:8000/api/gold-prices/latest
-
-# Test health
-curl http://localhost:8000/api/status
-```
-
-## 🔒 Security
-
-### Built-in Security
-- **Rate Limiting**: API endpoint protection
-- **CORS**: Properly configured
-- **Input Validation**: FastAPI automatic validation
-- **Security Headers**: XSS, frame protection
-
-### Production Recommendations
-- **HTTPS**: SSL/TLS certificates
-- **Firewall**: Restrict admin endpoints
-- **Monitoring**: Health check alerts
-- **Backups**: Regular data directory backups
-
-## 🚀 Deployment Options
-
-### Local Development
-```bash
-python server.py
-# → http://localhost:8000
-```
-
-### VPS/Server
-```bash
-# With screen/tmux
-screen -S makitox
-python server.py
-
-# With systemd
-sudo systemctl enable makitox.service
-sudo systemctl start makitox
-```
-
-### Cloud Platforms
-- **Heroku**: Create `Procfile` with `web: python server.py`
-- **Railway**: Auto-deploy from Git repository
-- **DigitalOcean**: App Platform with Python
-- **PythonAnywhere**: Simple Python hosting
-- **Vercel**: With Python runtime
-
-## 🛠️ Development
-
-### Adding New Pages
-```python
-@app.get("/new-page", response_class=HTMLResponse)
-async def new_page():
-    return serve_html_file("new-page.html")
-```
-
-### Customizing Gold Widget
-Edit `integrated_server.py` → `inject_gold_price_widget()`
-
-### Adding API Endpoints
-```python
-@app.get("/api/new-endpoint")
-async def new_endpoint():
-    return {"message": "Hello World"}
-```
-
-## 📚 Documentation
-
-- **Architecture Guide**: `ARCHITECTURE.md`
-- **API Documentation**: http://localhost:8000/docs (FastAPI auto-docs)
-- **Migration Guide**: `api/migrate.py`
-
-## ❓ Troubleshooting
-
-### Common Issues
-
-1. **Port Already in Use**
-   ```bash
-   lsof -ti:8000 | xargs kill -9  # Kill process on port 8000
-   ```
-
-2. **Dependencies Missing**
-   ```bash
-   pip install -r api/requirements.txt
-   ```
-
-3. **Permission Denied**
-   ```bash
-   chmod +x run.sh
-   ```
-
-4. **Data Directory Issues**
-   ```bash
-   mkdir -p api/data
-   ```
-
-### Getting Help
-- **Check Status**: http://localhost:8000/api/status
-- **View Logs**: Console output
-- **Test API**: http://localhost:8000/docs
+For technical support or questions:
+- Visit: [makitox.com/support](https://makitox.com/support)
+- Contact form available on support page
 
 ## 📄 License
 
-This project is part of the Makitox platform for educational and demonstration purposes.
+© 2024 Makitox. All rights reserved.
 
 ---
 
-## 🎯 Quick Commands Reference
-
-```bash
-# Start server
-python start.py
-
-# Quick launcher
-./run.sh  
-
-# Run tests
-python api/test_integration.py
-
-# Check server status
-make status
-
-# View API docs
-# Visit: http://localhost:8000/docs
-```
-
----
-
-**Ready to launch your premium mobile app platform with live gold prices! 🌟**
+**Built with modern web technologies for premium mobile app showcase.**
