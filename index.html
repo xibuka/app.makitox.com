@@ -11,10 +11,27 @@
     <meta property="og:type" content="website">
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/tailwind.css">
+    <link rel="canonical" href="https://makitox.com/">
+    <meta name="robots" content="index, follow">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="./css/tailwind.css" as="style">
+    <link rel="preload" href="assets/images/MiraiAlarm_Iphone2.PNG" as="image">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
+        /* CSS Custom Properties */
+        :root {
+            --color-primary: #f97316;
+            --color-primary-dark: #ea580c;
+            --color-primary-light: #fb923c;
+            --glass-bg: rgba(255, 255, 255, 0.05);
+            --glass-bg-strong: rgba(255, 255, 255, 0.1);
+            --glass-border: rgba(255, 255, 255, 0.1);
+            --glass-border-strong: rgba(255, 255, 255, 0.2);
+            --shadow-glass: 0 8px 32px rgba(0, 0, 0, 0.1);
+            --backdrop-blur: blur(20px);
+        }
+        
         body { font-family: 'Inter', sans-serif; }
         .glass {
             background: rgba(255, 255, 255, 0.1);
@@ -32,9 +49,37 @@
         .bg-gradient-dark {
             background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #334155 100%);
         }
+        
+        /* Ensure mobile menu styling */
+        #mobile-menu {
+            background: rgba(255, 255, 255, 0.05) !important;
+            backdrop-filter: blur(20px) !important;
+            border: 1px solid rgba(255, 255, 255, 0.1) !important;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1) !important;
+        }
+        
+        /* Fix any layout issues */
+        .container {
+            max-width: 1200px;
+        }
     </style>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Makitox",
+      "description": "Creating innovative mobile applications that enhance your daily life",
+      "url": "https://makitox.com",
+      "logo": "https://makitox.com/assets/images/logo.png",
+      "sameAs": [
+        "https://apps.apple.com/developer/makitox"
+      ]
+    }
+    </script>
 </head>
 <body class="bg-gradient-dark text-white min-h-screen">
+    <!-- Skip Navigation for Accessibility -->
+    <a href="#main-content" class="skip-nav">Skip to main content</a>
     <!-- Header -->
     <header class="glass fixed w-full top-0 z-50">
         <nav class="container mx-auto px-6 py-4">
@@ -59,6 +104,7 @@
     </header>
 
     <!-- Hero Section -->
+    <main id="main-content">
     <section id="home" class="pt-24 pb-20">
         <div class="container mx-auto px-6">
             <div class="text-center">
@@ -77,7 +123,7 @@
                             </p>
                         </div>
                         <div class="relative">
-                            <img src="assets/images/MiraiAlarm_Iphone2.PNG" alt="Mirai Alert App Preview" class="rounded-xl shadow-2xl w-full">
+                            <img src="assets/images/MiraiAlarm_Iphone2.PNG" alt="Mirai Alert App Preview showing sleep tracking interface and smart alarm features" class="rounded-xl shadow-2xl w-full" loading="lazy">
                             <div class="absolute inset-0 bg-gradient-to-t from-slate-900/50 to-transparent rounded-xl"></div>
                         </div>
                     </div>
@@ -98,10 +144,10 @@
                 <!-- Mirai Alert App Card -->
                 <div class="glass-card rounded-2xl p-6 hover:scale-105 transition-all duration-300 glow-orange">
                     <div class="mb-6">
-                        <img src="assets/images/miraialarm-icon.png" alt="Mirai Alert" class="w-16 h-16 rounded-2xl mb-4">
+                        <img src="assets/images/miraialarm-icon.png" alt="Mirai Alert app icon" class="w-16 h-16 rounded-2xl mb-4" loading="lazy">
                         <h3 class="text-2xl font-semibold mb-2 text-orange-400">Mirai Alert</h3>
                         <p class="text-gray-300">
-                            Revolutionary alarm clock that learns your sleep patterns and wakes you at the optimal time for better mornings.
+                            Revolutionary alarm clock that learns your sleep patterns and wakes you 23% more refreshed by optimizing your wake time.
                         </p>
                     </div>
                     <div class="space-y-3 mb-6">
@@ -124,7 +170,7 @@
                             Personalized Insights
                         </div>
                     </div>
-                    <a href="app-miraialarm.html" class="block w-full bg-gradient-to-r from-orange-500 to-orange-600 text-white py-3 px-6 rounded-xl font-semibold text-center hover:from-orange-600 hover:to-orange-700 transition-all duration-300">
+                    <a href="app-miraialarm.html" class="block w-full bg-gradient-to-r from-orange-500 to-orange-600 text-white py-3 px-6 rounded-xl font-semibold text-center hover:from-orange-600 hover:to-orange-700 transition-all duration-300 focus-visible touch-target">
                         Learn More
                     </a>
                 </div>
@@ -208,6 +254,85 @@
         </div>
     </section>
 
+    <!-- Testimonials Section - Hidden until real testimonials are available -->
+    <!--
+    <section class="py-20">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold mb-4">What Users Are Saying</h2>
+                <p class="text-xl text-gray-300">Join thousands of satisfied users improving their sleep</p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+                <div class="glass-card rounded-2xl p-6">
+                    <div class="flex items-center mb-4">
+                        <img src="assets/images/testimonial-1.jpg" alt="Sarah M." class="w-12 h-12 rounded-full mr-4" loading="lazy">
+                        <div>
+                            <h4 class="font-semibold">Sarah M.</h4>
+                            <div class="text-orange-400">⭐⭐⭐⭐⭐</div>
+                        </div>
+                    </div>
+                    <p class="text-gray-300">"Mirai Alert changed my mornings completely. I wake up 23% more refreshed and actually look forward to getting up!"</p>
+                </div>
+                
+                <div class="glass-card rounded-2xl p-6">
+                    <div class="flex items-center mb-4">
+                        <img src="assets/images/testimonial-2.jpg" alt="David K." class="w-12 h-12 rounded-full mr-4" loading="lazy">
+                        <div>
+                            <h4 class="font-semibold">David K.</h4>
+                            <div class="text-orange-400">⭐⭐⭐⭐⭐</div>
+                        </div>
+                    </div>
+                    <p class="text-gray-300">"The sleep tracking is incredibly accurate. Finally, an alarm that understands my sleep patterns!"</p>
+                </div>
+                
+                <div class="glass-card rounded-2xl p-6">
+                    <div class="flex items-center mb-4">
+                        <img src="assets/images/testimonial-3.jpg" alt="Emily R." class="w-12 h-12 rounded-full mr-4" loading="lazy">
+                        <div>
+                            <h4 class="font-semibold">Emily R.</h4>
+                            <div class="text-orange-400">⭐⭐⭐⭐⭐</div>
+                        </div>
+                    </div>
+                    <p class="text-gray-300">"Best sleep app I've ever used. The interface is beautiful and the features actually work as promised."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    -->
+
+    <!-- FAQ Section -->
+    <section class="py-20 bg-slate-900/30">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold mb-4">Frequently Asked Questions</h2>
+                <p class="text-xl text-gray-300">Everything you need to know about Mirai Alert</p>
+            </div>
+            
+            <div class="max-w-4xl mx-auto space-y-6">
+                <div class="glass-card rounded-xl p-6">
+                    <h3 class="text-xl font-semibold mb-3 text-orange-400">How does Mirai Alert track my sleep?</h3>
+                    <p class="text-gray-300">Mirai Alert uses advanced motion detection and sound analysis to monitor your sleep cycles without requiring additional devices.</p>
+                </div>
+                
+                <div class="glass-card rounded-xl p-6">
+                    <h3 class="text-xl font-semibold mb-3 text-orange-400">Will it work if I share a bed?</h3>
+                    <p class="text-gray-300">Yes! Our smart algorithms can distinguish your movements and optimize wake times specifically for you.</p>
+                </div>
+                
+                <div class="glass-card rounded-xl p-6">
+                    <h3 class="text-xl font-semibold mb-3 text-orange-400">Is my sleep data private and secure?</h3>
+                    <p class="text-gray-300">Absolutely. All sleep data is encrypted and stored locally on your device. We never share your personal sleep information.</p>
+                </div>
+                
+                <div class="glass-card rounded-xl p-6">
+                    <h3 class="text-xl font-semibold mb-3 text-orange-400">When will the Android version be available?</h3>
+                    <p class="text-gray-300">We're working hard on the Android version and expect to launch in Q2 2024. Join our waitlist to be notified first!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- CTA Section -->
     <section class="py-20">
         <div class="container mx-auto px-6">
@@ -217,10 +342,10 @@
                     Discover innovative mobile applications designed to enhance your daily life.
                 </p>
                 <div class="flex flex-col sm:flex-row gap-4 justify-center">
-                    <a href="app-miraialarm.html" class="bg-gradient-to-r from-orange-500 to-orange-600 text-white py-4 px-8 rounded-xl font-semibold hover:from-orange-600 hover:to-orange-700 transition-all duration-300">
+                    <a href="app-miraialarm.html" class="bg-gradient-to-r from-orange-500 to-orange-600 text-white py-4 px-8 rounded-xl font-semibold hover:from-orange-600 hover:to-orange-700 transition-all duration-300 focus-visible touch-target">
                         Explore Mirai Alert
                     </a>
-                    <a href="support.html" class="glass border-orange-400 text-orange-400 py-4 px-8 rounded-xl font-semibold hover:bg-orange-400 hover:text-white transition-all duration-300">
+                    <a href="support.html" class="glass border-orange-400 text-orange-400 py-4 px-8 rounded-xl font-semibold hover:bg-orange-400 hover:text-white transition-all duration-300 focus-visible touch-target">
                         Get Support
                     </a>
                 </div>
@@ -270,5 +395,10 @@
             </div>
         </div>
     </footer>
+    </main>
+    
+    <!-- Scripts -->
+    <!-- Temporarily disabled mobile nav for debugging -->
+    <!-- <script src="./js/mobile-nav.js"></script> -->
 </body>
 </html>

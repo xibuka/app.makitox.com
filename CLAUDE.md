@@ -29,7 +29,7 @@ makitox/
 This is a static website that requires no build process:
 
 1. **Local Development**: Open `index.html` in a web browser or use a simple HTTP server
-2. **Live Server**: Use VS Code Live Server extension or run `python -m http.server 8000`
+2. **Live Server**: Use VS Code Live Server extension or any static file server
 3. **Images**: Replace placeholder image files in `assets/images/` with actual Unsplash images
 
 ## Key Features

@@ -1,0 +1,16 @@
+User-agent: *
+Allow: /
+
+# Specific crawling rules
+Allow: /assets/images/
+Allow: /css/
+Allow: /js/
+
+# Disallow admin or private areas (add as needed)
+# Disallow: /admin/
+
+# Sitemap location
+Sitemap: https://makitox.com/sitemap.xml
+
+# Crawl-delay (optional)
+Crawl-delay: 1

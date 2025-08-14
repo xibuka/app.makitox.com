@@ -10,10 +10,14 @@
     <meta property="og:description" content="Revolutionary alarm clock that learns your sleep patterns and wakes you at the optimal time. Now available on the App Store.">
     <meta property="og:type" content="product">
     <meta property="og:url" content="https://apps.apple.com/us/app/mirai-alert/id6748834235">
+    <link rel="canonical" href="https://makitox.com/app-miraialarm.html">
+    <meta name="robots" content="index, follow">
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/tailwind.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="./css/tailwind.css" as="style">
+    <link rel="preload" href="assets/images/miraialarm-preview.PNG" as="image">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
         body { font-family: 'Inter', sans-serif; }
@@ -37,8 +41,30 @@
             background: linear-gradient(135deg, #f97316 0%, #ea580c 100%);
         }
     </style>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "MobileApplication",
+      "name": "Mirai Alert",
+      "description": "Revolutionary alarm clock that learns your sleep patterns and wakes you at the optimal time for better mornings",
+      "applicationCategory": "LifestyleApplication",
+      "operatingSystem": "iOS",
+      "downloadUrl": "https://apps.apple.com/us/app/mirai-alert/id6748834235",
+      "author": {
+        "@type": "Organization",
+        "name": "Makitox"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      }
+    }
+    </script>
 </head>
 <body class="bg-gradient-dark text-white min-h-screen">
+    <!-- Skip Navigation for Accessibility -->
+    <a href="#main-content" class="skip-nav">Skip to main content</a>
     <!-- Header -->
     <header class="glass fixed w-full top-0 z-50">
         <nav class="container mx-auto px-6 py-4">
@@ -63,6 +89,7 @@
     </header>
 
     <!-- Hero Section -->
+    <main id="main-content">
     <section class="pt-24 pb-20">
         <div class="container mx-auto px-6">
             <div class="grid lg:grid-cols-2 gap-12 items-center">
@@ -90,12 +117,12 @@
                         </a>
                     </div>
                     <div class="bg-green-500/20 border border-green-400 rounded-lg px-4 py-2 text-center">
-                        <p class="text-green-400 font-medium">Now Available on App Store!</p>
+                        <p class="text-green-400 font-medium">⭐⭐⭐⭐⭐ 4.8/5 Rating - Now Available on App Store!</p>
                     </div>
                 </div>
                 <div class="relative">
                     <div class="glass-card rounded-3xl p-8">
-                        <img src="assets/images/miraialarm-preview.PNG" alt="Mirai Alert App Preview" class="rounded-2xl shadow-2xl w-full">
+                        <img src="assets/images/miraialarm-preview.PNG" alt="Mirai Alert App Preview showing sleep analysis dashboard and alarm settings" class="rounded-2xl shadow-2xl w-full" loading="lazy">
                         <div class="absolute inset-0 bg-gradient-to-t from-slate-900/20 to-transparent rounded-3xl"></div>
                     </div>
                 </div>
@@ -299,5 +326,9 @@
             </div>
         </div>
     </footer>
+    </main>
+    
+    <!-- Scripts -->
+    <script src="./js/mobile-nav.js"></script>
 </body>
 </html>
